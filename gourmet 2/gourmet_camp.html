@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>グルメキャンプ</title>
+    <link rel="stylesheet" href="goulmet_camp.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <div class="header_top flex">
+                <div><img class="goulmet_camp_logo" src="logo.png" alt="ロゴ"></div>
+                <ul class="flex">
+                    <li><a class="link" href="#">TOP</a></li>
+                    <li><a class="link" href="#">予約一覧</a></li>
+                    <li><a class="link" href="#">いいねリスト</a></li>
+                    <li><a class="link" href="#">マイページ</a></li>
+                    <li><a class="link" href="#">サービス規約</a></li>
+                </ul>
+            </div>
+            <div class="goulmet_title"><img src="top_title.png" alt="タイトルロゴ"></div>
+            <div class="serch_area flex">
+                <div><b>お店を探す</b><input type="text" name="sarch_area" placeholder="エリア（例：札幌、東京）"></div>
+                <div><input type="text" name="sarch_keyword" placeholder="キーワード（例：イタリアン、コスパ）"></div>
+                <div><input type="submit" name="submit" value="検索"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="left_contents">
+            <article class="area">
+                <h2>おすすめのエリア</h2>
+                <ul class="recommend_area">
+                    <li><a href="#">札幌</a></li>
+                    <li><a href="#">福岡</a></li>
+                    <li><a href="#">仙台</a></li>
+                    <li><a href="#">宇都宮</a></li>
+                    <li><a href="#">東京</a></li>
+                    <li><a href="#">横浜</a></li>
+                    <li><a href="#">静岡</a></li>
+                    <li><a href="#">金沢</a></li>
+                    <li><a href="#">名古屋</a></li>
+                    <li><a href="#">京都</a></li>
+                    <li><a href="#">大阪</a></li>
+                    <li><a href="#">神戸</a></li>
+                    <li><a href="#">広島</a></li>
+                    <li><a href="#">松山</a></li>
+                    <li><a href="#">博多</a></li>
+                    <li><a href="#">那覇</a></li>
+                </ul>
+            </article>
+            <article class="hot">
+                <h2>ホットなスポット</h2>
+                <div class="hot_spot flex">
+                    <div>
+                        <p>すすきの（札幌）</p>
+                        <p>国分町（仙台）</p>
+                        <p>恵比寿（東京）</p>
+                    </div>
+                    <div>
+                        <p>吉祥寺（東京）</p>
+                        <p>渋谷（東京）</p>
+                        <p>六本木（東京）</p>
+                    </div>
+                    <div>
+                        <p>銀座（東京）</p>
+                        <p>新宿（東京）</p>
+                        <p>池袋（東京）</p>
+                    </div>
+                    <div>
+                        <p>原宿（東京）</p>
+                        <p>祇園・木屋町・先斗町（京都）</p>
+                        <p>梅田（大阪）</p>
+                    </div>
+                    <div>
+                        <p>心斎橋・なんば（大阪）</p>
+                        <p>元町（神戸）</p>
+                        <p>天神（博多）</p>
+                    </div>
+                    <div>
+                        <p>国際通り（那覇）</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="genre">
+                <h2>ジャンルで選ぶ</h2>
+                <div class="genre_food flex">
+                    <a href="#">
+                        <div class="chinese">
+                            <img src="image01.jpg">
+                            <p>中 華</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="japanese">
+                            <img src="image02.jpg">
+                            <p>和 食</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="french">
+                            <img src="image03.jpg">
+                            <p>フレンチ</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="italian">
+                            <img src="image04.jpg">
+                            <p>イタリアン</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="sweets">
+                            <img src="image05.jpg">
+                            <p>スイーツ</p>
+                        </div>
+                    </a>
+                </div>
+            </article>
+            <article class="obsession">
+                <h2>こだわりで選ぶ</h2>
+                <ul class="obsession_choice flex">
+                    <li><a href="#">雰囲気がいい</a></li>
+                    <li><a href="#">景観</a></li>
+                    <li><a href="#">川床</a></li>
+                    <li><a href="#">オーシャンビュー</a></li>
+                    <li><a href="#">接客いい</a></li>
+                    <li><a href="#">コスパ</a></li>
+                    <li><a href="#">ワイン</a></li>
+                    <li><a href="#">ショーがある</a></li>
+                    <li><a href="#">寿司</a></li>
+                    <li><a href="#">海鮮</a></li>
+                    <li><a href="#">トルコ料理</a></li>
+                    <li><a href="#">バー</a></li>
+                    <li><a href="#">おしゃれ</a></li>
+                    <li><a href="#">芸能人御用達</a></li>
+                </ul>
+            </article>
+            <article class="writer_recommend">
+                <h2 class="h2_recommend">ライターのおすすめ
+                    <span class="h2_sub">グルメキャンプのライター陣 行きつけの最強グルメスポットを紹介!</span>
+                </h2>
+                <div class="goulmet_spot flex">
+                    <figure class="soba">
+                        <img src="image06.jpg" alt="蕎麦の画像">
+                        <figcaption class="fig_mr">究極の十割蕎麦</figcaption>
+                        <p class="description">全国から仕入れた蕎麦の実を、産地ごとの特性に合わせて挽き、
+                            持ち味を最大限に引き出す至高のそば。フレンチの技法も加えて
+                            繰り出されるSOBAコースは意外性に富んでいるが、実は基本に忠実な仕事がされています。
+                            香ばしい焼きそばがきもおすすめ。
+                        </p>
+                    </figure>
+                    <figure class="turkey">
+                        <img src="image07.jpg" alt="トルコ料理の画像">
+                        <figcaption class="fig_mr">ケバブだけじゃない、トルコ料理</figcaption>
+                        <p class="description">トルコ料理というと日本ではドンドルマ（トルコ風アイス）
+                            くらいしか知られていませんが、実は世界三大料理の一つ。ハーブやヨーグルトを多用し、
+                            香辛料たっぷりのその味わいはまさに異国情緒。香味と酸味を中心に据えた味わいをご堪能ください。
+                        </p>
+                    </figure>
+                </div>
+            </article>
+            <article class="review">
+                <h2>ユーザーレビュー</h2>
+                <div class="user_review flex">
+                    <div class="user mr20px">
+                        <div class="user_prof flex">
+                            <div class="user_icon"><img src="icon08.png"></div>
+                            <div class="user_name">
+                                <p class="nickname">食いしん坊主</p>
+                                <p class="nickname_sub">男性・東京都</p>
+                            </div>
+                        </div>
+                        <figure class="comment">
+                            <figcaption class="fig_border">サービスがいまいち。。。</figcaption>
+                            <p>
+                                レビューの高評価に期待して伺ったのですが、接客態度があまりに悪く印象は最悪。<br>
+                                確かにお料理は美味しかったですが、凝った仕事をしていても、そもそもどのような素材を利用して
+                                どんな調理法で供されたものなのか一切説明がなかったので狐につままれたような印象でした。
+                            </p>
+                            <div class="comment_image">
+                                <img src="image08.jpg" alt="調理された魚の画像"><img class="img_mr10px" src="image09.jpg" alt="円形に並んだサラダの画像">
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="user">
+                        <div class="user_prof flex">
+                            <div class="user_icon"><img src="icon09.png"></div>
+                            <div class="user_name">
+                                <p class="nickname">スイーツ大好き</p>
+                                <p class="nickname_sub">女性・兵庫県</p>
+                            </div>
+                        </div>
+                        <figure class="comment">
+                            <figcaption class="fig_border">内装の美しさに感動!</figcaption>
+                            <p>
+                                以前から友人と話題に上がっていたお店だったので楽しみにしていました。
+                                ヴィンテージの家具や赤で統一されたモダンな内装。あらゆるディテールに
+                                ミッドセンチュリーモダンを意識した作りでオーダー前にすでに満足!
+                                カフェメニューも充実していて、近くのパティスリーから仕入れているケーキも
+                                美味しゅうございました。
+                            </p>
+                            <div class="comment_image">
+                                <img src="image10.jpg" alt="カフェの店内の画像"><img class="img_mr10px" src="image11.jpg" alt="チョコレートケーキの画像">
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="right_side_bar">
+            <div class="right_side_box">
+                <div class="back_white">
+                    <div class="user_prof flex">
+                        <div class="user_icon_right"><img src="icon08.png"></div>
+                        <div class="user_name">
+                            <p class="nickname">キャンプ太郎さん</p>
+                            <p class="nickname_sub">男性・東京都</p>
+                        </div>
+                    </div>
+                    <div class="point_rank">
+                        <span class="point_rank_mr"><img src="icon10.png">ポイント</span><span>130pt</span>
+                    </div>
+                    <div class="point_rank">
+                        <span class="point_rank_mr"><img src="icon11.png">ランク</span><span>プレミアム</span>
+                    </div>
+                </div>
+            </div>
+            <img class="banner" src="bnr01.png" alt="コードキャンプのバナー画像(レッスン満足度)"><img class="banner" src="bnr02.png" alt="コードキャンプのバナー画像（30歳までには。。。）">
+        </div>
+    </main>
+    <footer>
+        <div class="footer_navi">
+            <ul class="flex">
+                <li>TOP</li>
+                <li>プライバシーポリシー</li>
+                <li>会社概要</li>
+                <li>サイトマップ</LI>
+            </ul>
+        </div>
+        <div class="copyright">
+            <small>GoulmetCamp&copy; All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+
+</html>
